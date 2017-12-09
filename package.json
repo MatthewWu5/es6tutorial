@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "live-server ./ --port=8082",
-    "preinstall": "npm install -g live-server"
+    "preinstall": "npm i -g live-server"
   },
   "repository": {
     "type": "git",
