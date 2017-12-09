@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server ./ --port=8082"
+    "start": "live-server ./ --port=8082",
+    "preinstall": "echo \"alias npm='npm -g'\">>~/.bashrc && source ~/.bashrc",
+    "postinstall": "cat ~/.bashrc|grep -v npm > ~/.bashrc && source ~/.bashrc"
   },
   "repository": {
     "type": "git",
