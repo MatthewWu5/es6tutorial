@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node live-server.js ./ --port=8082 --no-browser"
+    "start": "node live-server.js ./ --port=3001 --no-browser"
   },
   "repository": {
     "type": "git",
